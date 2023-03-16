@@ -1,0 +1,41 @@
+<!-- HTML code for the user interface -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://fav.farm/💩" />
+    <link rel="stylesheet" href="style.css">
+    <title>Ray's Library</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mailto:someone@example.com">Shmemail</a></li>
+        <li><a href="about.asp">About</a></li>
+    </ul>
+    <div class="form-container">
+        <div class="book-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title"><br>
+      
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author"><br>
+      
+            <label for="rating">Rating:</label>
+            <input type="number" id="rating" name="rating" min="0" max="5" step="0.5"><br>
+      
+       
+            <button type="button" onclick="addBook()">Add Book</button>
+        </div>
+    </div>
+      
+      <div class="book-list">
+        <!-- HTML code for displaying the library -->
+      </div>
+      
+<script src="/Users/vulpes_vulpes/AiLibrary/script.js"></script>
+
+</body>
+</html>
